@@ -8,6 +8,7 @@ use Astrotomic\Translatable\Translatable;
 
 class About extends Model implements TranslatableContract
 {
+	// test branch 
     use Translatable;
 	
     protected $table = 'abouts';
